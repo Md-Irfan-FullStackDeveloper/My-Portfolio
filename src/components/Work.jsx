@@ -345,7 +345,7 @@ const Work = () => {
               {/* button */}
               <div className="flex gap-2 justify-evenly my-5 items-center">
                 <a
-                  href="https://github.com/jstgrowup/BeautyBebo-clone"
+                  href="https://github.com/Md-Irfan-FullStackDeveloper/Expedia-clone"
                   target="blank"
                 >
                   <button className="flex py-2 px-4 jusity-center gap-3 rounded-md hover:bg-[#FF577F] items-center bg-[#C70039]	 ">
@@ -355,7 +355,7 @@ const Work = () => {
                 </a>
 
                 <a
-                  href="https://delightful-duckanoo-17fff8.netlify.app/"
+                  href="https://expedia-tawny.vercel.app/?city="
                   target="blank"
                 >
                   <button className="flex py-2 px-4 jusity-center gap-3 rounded-md hover:bg-[#FF577F] items-center bg-[#C70039]	 ">
