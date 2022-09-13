@@ -7,7 +7,7 @@ const Home = () => {
   return (
     <div
       name="home"
-      className="w-100% flex md:flex-col lg:flex-row jusitfy-center items-center h-screen bg-[#0a192f]"
+      className="w-100% flex flex-col sm:flex-col md:flex-col lg:flex-row jusitfy-center items-center h-screen bg-[#0a192f]"
     >
       {/* Container */}
       <div className="max-w-[1000px] mx-auto px-8 flex flex-col justify-center h-full">
@@ -34,10 +34,10 @@ const Home = () => {
           </Link>
         </div>
       </div>
-      <div>
+      <div className=" mb-7 sm:mr-10 sm:mb-7">
         <img
           src={myPic}
-          className="hidden border-pink-600 border-4 mr-[2rem] rounded-full md:w-[250px] md:h-[250px] md:mt-[-50px] md:inline w-[350px] h-[350px] "
+          className=" border-pink-600 border-4 mr-[2rem] rounded-full md:w-[250px] md:h-[250px] md:mt-[-50px] md:inline w-[350px] h-[350px] "
           alt="myPic "
         />
       </div>
